@@ -1,0 +1,79 @@
+.Button {
+  width: 92px;
+  height: 41px;
+  padding: 10px 25px 10px 25px;
+  margin: 10px;
+  border-radius: 10px;
+  border-style: solid;
+}
+
+.Button_primary_light {
+  color: #fff;
+  background-color: #000;
+}
+
+.Button_secondary_dark {
+  border-color: #fff;
+  color: #fff;
+  background: none;
+}
+
+.Button_primary_dark {
+  background-color: #fff;
+  color: #0a0a0a;
+}
+
+.Button_secondary_light {
+  color: #000;
+  background-color: #fff;
+}
+
+.Button_primary_dark {
+  border-color: #fff;
+}
+
+.Button_primary_light,
+.Button_secondary_light {
+  border-color: #000;
+}
+
+.Button_primary_light:hover {
+  background-color: #5f5f5f;
+  border-color: #5f5f5f;
+}
+
+.Button_secondary_light:hover {
+  color: #5f5f5f;
+  border-color: #5f5f5f;
+}
+
+.Button_primary_dark:hover {
+  background-color: #cfcfcf;
+  border-color: #cfcfcf;
+  color: #0a0a0a;
+}
+
+.Button_secondary_dark:hover {
+  border-color: #cfcfcf;
+}
+
+.Button_primary_light:disabled {
+  background-color: #cfcfcf;
+  border-color: #cfcfcf;
+}
+
+.Button_secondary_light:disabled {
+  border-color: #cfcfcf;
+  color: #cfcfcf;
+}
+
+.Button_primary_dark:disabled {
+  background-color: #5f5f5f;
+  border-color: #5f5f5f;
+  color: #878787;
+}
+
+.Button_secondary_dark:disabled {
+  border-color: #5f5f5f;
+  color: #878787;
+}
