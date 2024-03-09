@@ -1,26 +1,83 @@
 import React from 'react';
 
 import { Button, ButtonProps } from './components/Buttons/Button';
+import './App.css';
 
 const buttonsLight: ButtonProps[] = [
   {
-    text: 'Button',
-    primary: 'light',
+    text: 'Hello',
+    theme: 'light',
+    state: 'normal',
+    order: 'primary'
   },
   {
-    text: 'Button',
-    secondary: 'light',
+    text: 'Hello',
+    theme: 'light',
+    state: 'normal',
+    order: 'secondary'
+  },
+  {
+    text: 'Hello',
+    theme: 'light',
+    state: 'hover',
+    order: 'primary'
+  },
+  {
+    text: 'Hello',
+    theme: 'light',
+    state: 'hover',
+    order: 'secondary'
+  },
+  {
+    text: 'Hello',
+    theme: 'light',
+    state: 'disabled',
+    order: 'primary'
+  },
+  {
+    text: 'Hello',
+    theme: 'light',
+    state: 'disabled',
+    order: 'secondary'
   },
 ];
 
 const buttonsDark: ButtonProps[] = [
   {
-    text: 'Button',
-    primary: 'dark',
+    text: 'Hello',
+    theme: 'dark',
+    state: 'normal',
+    order: 'primary'
   },
   {
-    text: 'Button',
-    secondary: 'dark',
+    text: 'Hello',
+    theme: 'dark',
+    state: 'normal',
+    order: 'secondary'
+  },
+  {
+    text: 'Hello',
+    theme: 'dark',
+    state: 'hover',
+    order: 'primary'
+  },
+  {
+    text: 'Hello',
+    theme: 'dark',
+    state: 'hover',
+    order: 'secondary'
+  },
+  {
+    text: 'Hello',
+    theme: 'dark',
+    state: 'disabled',
+    order: 'primary'
+  },
+  {
+    text: 'Hello',
+    theme: 'dark',
+    state: 'disabled',
+    order: 'secondary'
   },
 ];
 
