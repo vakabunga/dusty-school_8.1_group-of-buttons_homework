@@ -2,78 +2,62 @@
   width: 92px;
   height: 41px;
   padding: 10px 25px 10px 25px;
-  margin: 10px;
+  margin: 5px;
   border-radius: 10px;
   border-style: solid;
 }
 
-.Button_primary_light {
-  color: #fff;
-  background-color: #000;
+.Button_theme_dark {
+  --disabled-color: #5f5f5f;
+  --disabled-text-color: #878787;
+  --hover-color: #cfcfcf;
+  --normal-color: #fff;
+  --primary-color: #0a0a0a;
 }
 
-.Button_secondary_dark {
-  border-color: #fff;
-  color: #fff;
+.Button_theme_light {
+  --disabled-color: #cfcfcf;
+  --hover-color: #5f5f5f;
+  --normal-color: #000;
+  --primary-color: #fff;
+}
+
+.Button_order_primary {
+  color: var(--primary-color);
+}
+
+.Button_theme_dark.Button_state_disabled {
+  color: var(--disabled-text-color);
+  border-color: var(--disabled-color);
+}
+
+.Button_state_normal {
+  background-color: var(--normal-color);
+  border-color: var(--normal-color);
+}
+
+.Button_state_hover {
+  background-color: var(--hover-color);
+  border-color: var(--hover-color);
+}
+
+.Button_state_disabled {
+  background-color: var(--disabled-color);
+  border-color: var(--disabled-color);
+}
+
+.Button_state_hover.Button_order_secondary {
+  color: var(--hover-color);
+}
+
+.Button_state_disabled.Button_order_secondary {
+  color: var(--disabled-color);
+}
+
+.Button_order_secondary.Button_theme_dark {
+  color: var(--normal-color);
+}
+
+.Button_order_secondary {
   background: none;
-}
-
-.Button_primary_dark {
-  background-color: #fff;
-  color: #0a0a0a;
-}
-
-.Button_secondary_light {
-  color: #000;
-  background-color: #fff;
-}
-
-.Button_primary_dark {
-  border-color: #fff;
-}
-
-.Button_primary_light,
-.Button_secondary_light {
-  border-color: #000;
-}
-
-.Button_primary_light:hover {
-  background-color: #5f5f5f;
-  border-color: #5f5f5f;
-}
-
-.Button_secondary_light:hover {
-  color: #5f5f5f;
-  border-color: #5f5f5f;
-}
-
-.Button_primary_dark:hover {
-  background-color: #cfcfcf;
-  border-color: #cfcfcf;
-  color: #0a0a0a;
-}
-
-.Button_secondary_dark:hover {
-  border-color: #cfcfcf;
-}
-
-.Button_primary_light:disabled {
-  background-color: #cfcfcf;
-  border-color: #cfcfcf;
-}
-
-.Button_secondary_light:disabled {
-  border-color: #cfcfcf;
-  color: #cfcfcf;
-}
-
-.Button_primary_dark:disabled {
-  background-color: #5f5f5f;
-  border-color: #5f5f5f;
-  color: #878787;
-}
-
-.Button_secondary_dark:disabled {
-  border-color: #5f5f5f;
-  color: #878787;
 }

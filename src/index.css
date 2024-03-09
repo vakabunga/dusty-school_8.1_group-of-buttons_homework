@@ -14,7 +14,11 @@ code {
 
 .light-box,
 .black-box {
-  padding: 30px;
+  display: flex;
+  width: 209px;
+  gap: 5px;
+  flex-wrap: wrap;
+  padding: 5px;
 }
 
 .black-box {
