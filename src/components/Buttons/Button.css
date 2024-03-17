@@ -58,6 +58,10 @@
   color: var(--normal-color);
 }
 
-.Button_order_secondary {
-  background: none;
+.Button_order_secondary.Button_theme_dark {
+  background-color: #000;
+}
+
+.Button_order_secondary.Button_theme_light {
+  background-color: #fff;
 }
